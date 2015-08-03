@@ -1,0 +1,25 @@
+{
+  "name": "potimporter",
+  "version": "0.0.1",
+  "description": "Descarga informacion de contratos del portal de transparencia del IFAI",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/el-sonny/potimporter.git"
+  },
+  "author": "el-sonny",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/el-sonny/potimporter/issues"
+  },
+  "homepage": "https://github.com/el-sonny/potimporter#readme",
+  "dependencies": {
+    "adm-zip": "^0.4.7",
+    "async": "^1.4.0",
+    "nightmare": "^1.8.2",
+    "wget": "0.0.1"
+  }
+}
